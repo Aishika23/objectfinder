@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Object Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"> </script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Signika+Negative&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <br><br><br><br>
+        <div align="right" id="login-background">
+           <div id="login" align="center">
+              <br>
+              <br><br>
+              <span>Hello and welcome to </span><span class="hey">Object Detection Webapp</span><span>!</span><br><br>
+              <hr>
+              <br>
+              
+              <span class="hey">Status: </span><span id="status"></span>
+              <br><br><br>
+              <span class="hey">Enter Object Name</span>
+              <br>
+     <input type="text"  id="input" class="inaput" placeholder="  The input name must match with names present in cocoSSD model">
+     <br><br><Br></Br><br>
+     <button onclick="start()">START</button>
+     <br><br><br><br><br><br>
+     </div>
+        </div>
+     </center>
+     <script src="main.js"></script>
+</body>
+</html>
